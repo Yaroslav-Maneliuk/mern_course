@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "lesson mern",
+  "mongoUri": "mongodb+srv://yaroslav:1234@cluster0.2brcsro.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}
