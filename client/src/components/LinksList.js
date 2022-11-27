@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const LinkList = ({ links }) => {
+export const LinksList = ({ links }) => {
   if (!links.length) {
     return <p className="center">No links yet</p>;
   }
@@ -10,7 +10,7 @@ export const LinkList = ({ links }) => {
     <table>
       <thead>
         <tr>
-          <th>N</th>
+          <th>№</th>
           <th>Original</th>
           <th>Shorten</th>
           <th>Open</th>
